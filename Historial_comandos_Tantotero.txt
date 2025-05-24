@@ -1,0 +1,69 @@
+cd ~/repogit
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:sgr55/TP_AySO.git
+[200~sudo dnf install git
+sudo dnf install git
+git --version
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:sgr55/TP_AySO.git
+[200~cd TP_AySO
+cd TP_AySO
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+[200~cd ~/.ssh
+cd ~/.ssh
+ls -la
+cat id_rsa.pub
+id_rsa.pub
+cat id_ed25519.pub
+[200~cd ~/repogit
+cd ~/repogit
+git clone git@github.com:sgr55/TP_AySO.git
+cat /etc/os-release
+man grep
+grep -i home_url /etc/os-release
+grep -i home_url /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+cd ~
+cd repogit/TP_AySO
+pwd
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git add .
+git config --global user.email "sebiitantoo@gmail.com"
+git config --global user.name "sgr55"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push origin main
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+nano datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push origin main
+cat << EOF >> README.md
+Alumno: Sebastián Tantotero
+División: 117-1
+Turno: Mañana
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push origin main
+echo 'mkdir -p ~/estructura/directorio1/directorio2' > script_dir.sh
+chmod +x script_dir.sh
+git add script_dir.sh
+git commit -m "ADD: Añadiendo script de estructura de directorios"
+git push origin main
+history -a
