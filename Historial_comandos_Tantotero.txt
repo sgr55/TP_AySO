@@ -1,6 +1,7 @@
 cd ~/repogit
 cd
 mkdir repogit
+
 cd repogit
 git clone git@github.com:sgr55/TP_AySO.git
 [200~sudo dnf install git
@@ -67,3 +68,5 @@ git add script_dir.sh
 git commit -m "ADD: Añadiendo script de estructura de directorios"
 git push origin main
 history -a
+history -a
+cp ~/.bash_history ./Historial_comandos_Tantotero.txt
